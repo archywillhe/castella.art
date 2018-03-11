@@ -107,15 +107,71 @@ a {
 
   .title {
     padding: 140px 0; } }
-@media (max-width: 550px) {
+@media (max-width: 570px) {
   body {
     font-size: 11px; }
 
   .title {
-    padding: 120px 0; } }
+    padding: 170px 0; } }
 @media (max-width: 450px) {
   .title {
-    padding: 90px 0; } }
+    padding: 200px 0; } }
+.sessionBlue0, .sessionBlue1, .sessionBlack0, .sessionWhite0, .sessionWhite1 {
+  display: none;
+  overflow: hidden;
+  position: relative; }
+  .sessionBlue0 img, .sessionBlue1 img, .sessionBlack0 img, .sessionWhite0 img, .sessionWhite1 img {
+    width: 100%;
+    position: absolute;
+    top: 0; }
+
+@media (max-width: 570px) {
+  .sessionBlue0, .sessionBlue1, .sessionBlack0, .sessionWhite0, .sessionWhite1 {
+    display: block; }
+
+  .sessionBlue0 {
+    height: 40px;
+    background-color: #007ac2; }
+    .sessionBlue0 img {
+      top: auto !important;
+      bottom: 0 !important; }
+
+  .sessionBlue1 {
+    height: 40px;
+    background-color: #0084c9; }
+
+  .sessionBlack0 {
+    height: 40px;
+    background-color: #000; }
+
+  .sessionWhite0 {
+    height: 40px;
+    background-color: #f1f3f2; }
+    .sessionWhite0 img {
+      top: auto !important;
+      bottom: 0 !important; }
+
+  .sessionWhite1 {
+    height: 34px;
+    background-color: #efefef; } }
+@media (max-width: 450px) {
+  .sessionBlue0 {
+    height: 70px; }
+
+  .sessionBlue1 {
+    height: 70px; }
+
+  .sessionBlack0 {
+    height: 70px; }
+
+  .sessionWhite0 {
+    height: 70px; }
+
+  .sessionWhite1 {
+    height: 60px; } }
+.session0, .session1, .session2 {
+  z-index: 10; }
+
 .session0 h2 {
   width: 350px;
   margin-right: 80px;
