@@ -424,6 +424,7 @@ a {
   @media (max-width: 395px) {
     .session2 p {
       width: 290px;
+      margin: 0 auto;
       margin-left: -145px;
       margin-bottom: -110px; } }
 
