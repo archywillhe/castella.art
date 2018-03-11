@@ -167,6 +167,7 @@ $_450-image-height: 70px;
         }
     }
     .sessionBlue1{
+        top:-1px;
         height: $_570-image-height;
         background-color:#0084c9
     }
@@ -211,7 +212,7 @@ $_450-image-height: 70px;
     z-index: 10
 }
 .session0{
-
+    background-color: #0084c9;
     h2{
         width:350px; margin-right: 80px; margin-bottom: 150px;
         @media (max-width: 1300px) {
@@ -267,6 +268,7 @@ $_450-image-height: 70px;
     }
 }
 .session1{
+    background-color: #000;
     h2{
         width:300px; margin-right: 140px; margin-bottom: 176px;
         @media (max-width: 1300px) {
