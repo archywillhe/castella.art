@@ -131,6 +131,12 @@ a{
 }
 
 @media (max-width: 900px) {
+    h1{
+        letter-spacing: 2px !important
+    }
+    h2{
+        letter-spacing: 1px !important;
+    }
     body{
         font-size: 13px
     }
@@ -139,6 +145,12 @@ a{
     }
 }
 @media (max-width: 570px) {
+    h1{
+        letter-spacing: 1px !important
+    }
+    h2{
+        letter-spacing: 0px !important;
+    }
     body{
         font-size: 12px
     }
