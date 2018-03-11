@@ -427,4 +427,9 @@ a {
       margin-left: -145px;
       margin-bottom: -110px; } }
 
+.response {
+  margin-top: 24px;
+  padding: 20px;
+  max-width: 500px; }
+
 /*# sourceMappingURL=style.css.map */
