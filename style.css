@@ -52,6 +52,7 @@ html, body {
     margin-top: 9px; }
 
 .footer {
+  z-index: 32;
   padding: 0;
   position: fixed;
   align-items: center;
