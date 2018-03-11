@@ -149,7 +149,7 @@ a{
     img{
         width: 100%;
         position: absolute;
-        top:0
+        top:-1px
     }
 }
 $_570-image-height: 40px;
@@ -163,7 +163,7 @@ $_450-image-height: 70px;
         background-color:#007ac2;
         img{
             top:auto !important;
-            bottom:0 !important
+            bottom:-1px !important
         }
     }
     .sessionBlue1{
@@ -179,7 +179,7 @@ $_450-image-height: 70px;
         background-color:#f1f3f2;
         img{
             top:auto !important;
-            bottom:0 !important
+            bottom:-1px !important
         }
     }
     .sessionWhite1{

@@ -123,7 +123,7 @@ a {
   .sessionBlue0 img, .sessionBlue1 img, .sessionBlack0 img, .sessionWhite0 img, .sessionWhite1 img {
     width: 100%;
     position: absolute;
-    top: 0; }
+    top: -1px; }
 
 @media (max-width: 570px) {
   .sessionBlue0, .sessionBlue1, .sessionBlack0, .sessionWhite0, .sessionWhite1 {
@@ -134,7 +134,7 @@ a {
     background-color: #007ac2; }
     .sessionBlue0 img {
       top: auto !important;
-      bottom: 0 !important; }
+      bottom: -1px !important; }
 
   .sessionBlue1 {
     height: 40px;
@@ -149,7 +149,7 @@ a {
     background-color: #f1f3f2; }
     .sessionWhite0 img {
       top: auto !important;
-      bottom: 0 !important; }
+      bottom: -1px !important; }
 
   .sessionWhite1 {
     height: 34px;
