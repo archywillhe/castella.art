@@ -432,7 +432,7 @@ a {
     .session2 p {
       width: 300px;
       margin-left: 8px;
-      margin-bottom: -190px; } }
+      margin-bottom: -210px; } }
   @media (max-width: 660px) {
     .session2 p {
       margin-left: -50px;
@@ -444,20 +444,20 @@ a {
     .session2 p {
       width: 300px;
       margin-left: -150px;
-      margin-bottom: -149px;
+      margin-bottom: -162px;
       text-align: center; } }
   @media (max-width: 474px) {
     .session2 p {
-      margin-bottom: -140px; } }
+      margin-bottom: -147px; } }
   @media (max-width: 410px) {
     .session2 p {
-      margin-bottom: -130px; } }
+      margin-bottom: -139px; } }
   @media (max-width: 395px) {
     .session2 p {
       width: 290px;
       margin: 0 auto;
       margin-left: -145px;
-      margin-bottom: -120px; } }
+      margin-bottom: -128px; } }
 
 .response {
   margin-top: 24px;
