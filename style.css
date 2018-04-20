@@ -64,9 +64,6 @@ html, body {
   .title p, .footer p {
     margin-top: 9px; }
 
-.home-page .title {
-  padding: 123px 0; }
-
 .footer {
   z-index: 32;
   padding: 0;
