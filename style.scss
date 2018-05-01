@@ -70,7 +70,7 @@ html,body{
         font-family: "Nevis";
         margin: 30px 0;
         letter-spacing: 2px;
-        text-transform: uppercase;
+        // text-transform: uppercase;
         padding:20px
     }
     p{
@@ -96,6 +96,10 @@ html,body{
     background-color:#000; color:#fff;
     -webkit-transition: top .5s ease;
     transition: top .5s ease;
+}
+.mailing-list{
+    background-color:#000;
+    color:#fff;
     label{
             font-family: Arial
     }
@@ -485,4 +489,16 @@ $_450-image-height: 70px;
 /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
 border-radius: 12px;
     border:1px solid #f4f4f4;
+}
+
+.none-app-icon-img{
+    margin-bottom: 28px;
+    padding: 5px;
+    img{
+        margin: 0 20px
+    }
+}
+
+.instruction{
+    margin-bottom:60px
 }

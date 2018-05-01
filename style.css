@@ -59,7 +59,6 @@ html, body {
     font-family: "Nevis";
     margin: 30px 0;
     letter-spacing: 2px;
-    text-transform: uppercase;
     padding: 20px; }
   .title p, .footer p {
     margin-top: 9px; }
@@ -78,9 +77,13 @@ html, body {
   color: #fff;
   -webkit-transition: top .5s ease;
   transition: top .5s ease; }
-  .footer label {
+
+.mailing-list {
+  background-color: #000;
+  color: #fff; }
+  .mailing-list label {
     font-family: Arial; }
-  .footer input {
+  .mailing-list input {
     margin-left: 7px;
     margin-right: 28px;
     color: #fff;
@@ -89,22 +92,22 @@ html, body {
     border: 2px solid #eee;
     font-family: Arial; }
     @media (max-width: 650px) {
-      .footer input {
+      .mailing-list input {
         margin-right: 0; } }
-  .footer input:focus {
+  .mailing-list input:focus {
     outline-width: 0;
     outline: none; }
   @media (max-width: 650px) {
-    .footer input.submit-button {
+    .mailing-list input.submit-button {
       width: 100%;
       margin: 0; } }
-  .footer .input-group {
+  .mailing-list .input-group {
     display: inline-block; }
     @media (max-width: 650px) {
-      .footer .input-group {
+      .mailing-list .input-group {
         display: block;
         margin-bottom: 20px; } }
-  .footer .form-container {
+  .mailing-list .form-container {
     display: flex;
     justify-content: center; }
 
@@ -476,5 +479,14 @@ a {
   /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
   border-radius: 12px;
   border: 1px solid #f4f4f4; }
+
+.none-app-icon-img {
+  margin-bottom: 28px;
+  padding: 5px; }
+  .none-app-icon-img img {
+    margin: 0 20px; }
+
+.instruction {
+  margin-bottom: 60px; }
 
 /*# sourceMappingURL=style.css.map */
