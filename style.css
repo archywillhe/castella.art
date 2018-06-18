@@ -219,7 +219,6 @@ a {
     left: -50px;
     font-size: 0.9em; }
   .session0 h2 {
-    text-align: right;
     width: 350px;
     margin-right: 80px;
     margin-bottom: 150px; }
@@ -257,8 +256,7 @@ a {
   .session0 p {
     width: 350px;
     margin-left: 150px;
-    margin-top: 210px;
-    text-align: left; }
+    margin-top: 210px; }
     @media (max-width: 1300px) {
       .session0 p {
         width: 350px;
