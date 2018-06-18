@@ -256,7 +256,8 @@ a {
   .session0 p {
     width: 350px;
     margin-left: 150px;
-    margin-top: 210px; }
+    margin-top: 210px;
+    text-align: left; }
     @media (max-width: 1300px) {
       .session0 p {
         width: 350px;
