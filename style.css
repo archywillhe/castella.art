@@ -219,6 +219,7 @@ a {
     left: -50px;
     font-size: 0.9em; }
   .session0 h2 {
+    text-align: right;
     width: 350px;
     margin-right: 80px;
     margin-bottom: 150px; }
