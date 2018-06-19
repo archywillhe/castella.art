@@ -45,13 +45,14 @@ html,body{
             line-height: 1.6em;
             left:50%;
             top:50%;
-            text-align: right;
+            text-align: left;
         }
         h2{
             font-family: "Nevis";
             letter-spacing: 2px;
             right:50%;
             bottom:50%;
+            text-align: right;
         }
 }
 
@@ -253,7 +254,8 @@ $_450-image-height: 70px;
 }
 .session0{
     background-color: #0084c9;
-    color:#333;background:#fff; padding: 100px;
+    color:#333;background:#fff; padding: 140px;
+    padding-top: 20px;
     @media (max-width: 500px) {
         padding: 50px;
     }
@@ -263,17 +265,18 @@ $_450-image-height: 70px;
     .h2-wrapper{
         top:0;
         position: relative;
-        left: -50px;
+        left: -113px;
         font-size: 0.9em;
     }
 
     h2{
-        width:350px; margin-right: 80px; margin-bottom: 150px;
+
+        width:350px; margin-right: 90px; margin-bottom: 150px;
         @media (max-width: 1300px) {
         width:350px; margin-right: 70px; margin-bottom: 120px;
         }
         @media (max-width: 1050px) {
-        width:300px; margin-right: 90px; margin-bottom: 90px
+        width:260px; margin-right: 60px; margin-bottom: 90px
         }
         @media (max-width: 940px) {
             display: none;
@@ -296,18 +299,18 @@ $_450-image-height: 70px;
         }
     }
     p{
-        width:350px; margin-left: 150px; margin-top: 210px;
+        width:340px; margin-left: 220px; margin-top: 170px;
         @media (max-width: 1300px) {
-        width:350px; margin-left: 150px; margin-top: 170px
+        width:300px; margin-left: 200px; margin-top: 130px
         }
         @media (max-width: 1050px) {
             width:280px;
-            margin-left: 175px; margin-top: 140px
+            margin-left: 175px; margin-top: 110px
         }
         @media (max-width: 940px) {
             display: none;
             width:280px;
-            margin-left: 30px; margin-top: 120px
+            margin-left: 30px; margin-top: 80px
         }
         @media (max-width: 650px) {
             width:340px;
@@ -521,4 +524,11 @@ border-radius: 12px;
 
 .instruction{
     margin-bottom:60px
+}
+
+.downButton{
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top:-80px
 }
