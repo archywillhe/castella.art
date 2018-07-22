@@ -45,13 +45,14 @@ html,body{
             line-height: 1.6em;
             left:50%;
             top:50%;
-            text-align: right;
+            text-align: left;
         }
         h2{
             font-family: "Nevis";
             letter-spacing: 2px;
             right:50%;
             bottom:50%;
+            text-align: right;
         }
 }
 
@@ -253,15 +254,32 @@ $_450-image-height: 70px;
 }
 .session0{
     background-color: #0084c9;
+    color:#333;background:#fff; padding: 140px;
+    padding-top: 20px;
+    @media (max-width: 500px) {
+        padding: 50px;
+    }
+    @media (max-width: 400px) {
+        padding: 10px;
+    }
+    .h2-wrapper{
+        top:0;
+        position: relative;
+        left: -113px;
+        font-size: 0.9em;
+    }
+
     h2{
-        width:350px; margin-right: 80px; margin-bottom: 150px;
+
+        width:350px; margin-right: 90px; margin-bottom: 150px;
         @media (max-width: 1300px) {
         width:350px; margin-right: 70px; margin-bottom: 120px;
         }
         @media (max-width: 1050px) {
-        width:300px; margin-right: 60px; margin-bottom: 90px
+        width:260px; margin-right: 60px; margin-bottom: 90px
         }
-        @media (max-width: 820px) {
+        @media (max-width: 940px) {
+            display: none;
             margin-right: 10px; margin-bottom: 100px
         }
         @media (max-width: 650px) {
@@ -281,17 +299,18 @@ $_450-image-height: 70px;
         }
     }
     p{
-        width:350px; margin-left: 100px; margin-top: 210px;
+        width:340px; margin-left: 220px; margin-top: 170px;
         @media (max-width: 1300px) {
-        width:350px; margin-left: 100px; margin-top: 170px
+        width:300px; margin-left: 200px; margin-top: 130px
         }
         @media (max-width: 1050px) {
-            width:340px;
-            margin-left: 70px; margin-top: 140px
-        }
-        @media (max-width: 820px) {
             width:280px;
-            margin-left: 30px; margin-top: 120px
+            margin-left: 175px; margin-top: 110px
+        }
+        @media (max-width: 940px) {
+            display: none;
+            width:280px;
+            margin-left: 30px; margin-top: 80px
         }
         @media (max-width: 650px) {
             width:340px;
@@ -489,11 +508,15 @@ $_450-image-height: 70px;
 /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
 border-radius: 12px;
     border:1px solid #f4f4f4;
+    img{
+        position: relative;
+        top:2px
+    }
 }
 
 .none-app-icon-img{
     margin-bottom: 28px;
-    padding: 5px;
+    padding: 3px;
     img{
         margin: 0 20px
     }
@@ -501,4 +524,11 @@ border-radius: 12px;
 
 .instruction{
     margin-bottom:60px
+}
+
+.downButton{
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top:-80px
 }
