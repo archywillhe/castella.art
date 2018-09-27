@@ -23,6 +23,13 @@ input {
 html, body {
   position: relative; }
 
+ a:link, a:visited {
+      color:#111
+  }
+  a:hover{
+      opacity:0.5
+  }
+
 .superContainer {
   margin: 0 auto;
   max-width: 1440px; }
