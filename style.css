@@ -79,7 +79,7 @@ html, body {
     top:20px;
     width:100%;
     height: 100%;
-    background-color: black
+    background-color: #fff
 }
 .center{
     text-align: center;
@@ -169,7 +169,11 @@ html, body {
   @media (max-width: 650px) {
     .onboardingForm input.submit-button {
       width: 100%;
-      margin: 0; } }
+      margin: 0; }
+      .onboardingForm input {
+        width: 100%;
+        margin: 0; }
+  }
   .onboardingForm .input-group {
     display: inline-block; }
     @media (max-width: 650px) {
