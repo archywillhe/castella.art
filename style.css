@@ -26,8 +26,11 @@ html, body {
 .social-network a{
     margin: 0 7px
 }
+a{
+    color:rgb(255, 174, 66)
+}
  a:link, a:visited {
-      color:#111
+      color:rgb(255, 174, 66)
   }
   a:hover{
       /* opacity:0.5 */
@@ -81,9 +84,10 @@ html, body {
     height: 100%;
     background-color: #fff
 }
-.center{
+.center-appstores{
     text-align: center;
     margin-bottom: 10px;
+    padding-top: 50px;
 }
 .superContainer {
   margin: 0 auto;
@@ -108,12 +112,13 @@ html, body {
     right: 50%;
     bottom: 50%;
     text-align: right; }
-
+.titleContainer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
 .title, .footer {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  padding: 230px 0; }
+  padding: 230px 0;}
   .title h1, .footer h1 {
     font-family: "Nevis";
     letter-spacing: 4px;
@@ -143,10 +148,19 @@ html, body {
   color: #fff;
   -webkit-transition: top .5s ease;
   transition: top .5s ease; }
+  button {
+    margin-left: 7px;
+    margin-right: 28px;
+    color: #fff;
+    padding: 13px;
+    background-color: #000;
+    border: 2px solid #eee;
+    font-family: Arial; }
 
 .submit-button{
     cursor: pointer; !important
 }
+button:focus { outline: none; }
 .onboardingForm {
   background-color: #000;
   color: #fff; }
@@ -291,7 +305,7 @@ a {
     top: 0;
     position: relative;
     left: -113px;
-    font-size: 0.9em; }
+    font-size: 0.75em; }
   .session0 h2 {
     width: 350px;
     margin-right: 90px;

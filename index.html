@@ -12,7 +12,7 @@
     <body class="home-page">
         <div class="superContainer">
         <div class="title">
-
+            <div class="titleContainer">
 
             <div style="position:absolute; top:20px; right: 20px">
                 <a target="_blank" href="https://facebook.com/Castella-409919256087289/">
@@ -28,14 +28,15 @@
                 <p style="">an exploratory AR platform for the arts</p>
                 <p style="font-size:0.8em; margin-top:20px">< Avaialble in Singapore. <span style="color:#999">Soon in Beijing and Tokyo. ></span></p>
             </div>
-            <br/>
+        </div>
+        <div class="center-appstores">
+            <a href="https://itunes.apple.com/sg/app/castella/id1429048249">
+                <img src="apple.png" height="40px">
+            </a>
+            <img src="google.png" height="40px" style="margin-left:25px; opacity: 0.5">
+        </div>
         </div>
         <div class="session session0">
-            <div class="center">
-                <a href="https://castella.art/app">
-                    <img src="apple.png" width="120px">
-                </a>
-            </div>
       <div class="phonePreview">
           <div class="phoneContent">
           <img src="phone.gif" class="phoneGif">
@@ -43,25 +44,59 @@
           <img src="phoneFrame.png" class="phoneFrame">
       </div>
             <h2>
-                <!-- <div class="h2-wrapper">
-                Art Cataloguing for Gallery-goers
-            </div> -->
+                <div class="h2-wrapper">
+                Augemented Reality <br/>for Gallery-goers
+            </div>
             </h2>
-            <!-- <p>
-                View artwork through Augmented Reality and get a sense of how they'd transform your space.
-            </p> -->
+            <p>
+                Get a sense of how a painting will transform your space before it arrives phyiscally.
+            </p>
+        </div>
+        <div class="title titleContainer" style="padding: 20px 0">
+            <div>
+                <h2>How does it work?</h2>
+                <div class="app-icon" style="margin-top:20px">
+                    <img src="castella.art.png" style="width:58px;">
+                </div>
+                <div class="instruction">
+                    Step 1: Download <a href="https://itunes.apple.com/sg/app/castella/id1429048249">Castella</a> on the Singapore App Store.
+                </div>
+                <div class="none-app-icon-img">
+                    <img src="gallery.png" style="width:58px;">
+                </div>
+                <div class="instruction">
+                    Step 2: Select a gallery of your choice.
+                </div>
+                <div class="none-app-icon-img">
+                    <img src="select.png" style="width:58px;">
+                    <img src="artwork.png" style="width:58px;">
+                </div>
+                <div class="instruction">
+                    Step 3: Select a painting you like and preview it in AR.
+                </div>
+                <h2 class="instruction">
+                    Enjoy.
+                </h2>
+            </div>
         </div>
 
         <div class="session session0 onboarding" style="position:relative;background-color:#000;color:#eee">
-            <span class="textToShow">Are you a gallery representative and have received a Castella&nbsp;Onboarding&nbsp;Invitation&nbsp;Code?</span>
+            <span class="textToShow">Get in touch with us.</span>
             <div class="onboardingForm">
-                <form id="onboardingForm">
+                <!-- <form id="onboardingForm"> -->
                      <div class="input-group" style="margin-top:20px">
-                <input class="button"></input>
-            </div><div class="input-group" style="margin-top:5px">
-                  <input type="submit" value="Onboard" name="submit" class="button submit-button"></div>
+                <!-- <input class="button"></input> -->
+                <a href="tel:+65-9156-4246"><button class="button">
+                    Phone: +65 9156 4246 (Evelyn)</button></a>
+            </div><div class="input-group" style="margin-top:10px">
+                <a href="mailto:e@castella.art">
+                  <button class="button">
+                      Email: e@castella.art (Evelyn)
+                  </button>
+              </a>
               </div>
-              </form>
+              </div>
+              <!-- </form> -->
           </div>
 
         </div>
@@ -73,10 +108,10 @@
     <script src="jquery.js">
     </script>
     <script>
-    $( "#onboardingForm" ).submit(function( event ) {
-        event.preventDefault();
-        $(".textToShow").text("Invalid Invitation Code.")
-    });
+    // $( "#onboardingForm" ).submit(function( event ) {
+    //     event.preventDefault();
+    //     $(".textToShow").text("Invalid Invitation Code.")
+    // });
     </script>
     </body>
 </html>
