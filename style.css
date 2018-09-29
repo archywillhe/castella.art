@@ -160,6 +160,9 @@ a{
 .submit-button{
     cursor: pointer; !important
 }
+button{
+    cursor: pointer; !important
+}
 button:focus { outline: none; }
 .onboardingForm {
   background-color: #000;
