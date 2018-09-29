@@ -164,12 +164,12 @@ button{
     cursor: pointer; !important
 }
 button:focus { outline: none; }
-.onboardingForm {
+.mailing-list, .contact-info {
   background-color: #000;
   color: #fff; }
-  .onboardingForm label {
+  .mailing-list label {
     font-family: Arial; }
-  .onboardingForm input {
+  .mailing-list input {
     margin-left: 7px;
     margin-right: 28px;
     color: #fff;
@@ -178,26 +178,26 @@ button:focus { outline: none; }
     border: 2px solid #eee;
     font-family: Arial; }
     @media (max-width: 650px) {
-      .onboardingForm input {
+      .mailing-list input {
         margin-right: 0; } }
-  .onboardingForm input:focus {
+  .mailing-list input:focus {
     outline-width: 0;
     outline: none; }
   @media (max-width: 650px) {
-    .onboardingForm input.submit-button {
+    .mailing-list input.submit-button {
       width: 100%;
       margin: 0; }
-      .onboardingForm input {
+      .mailing-list input {
         width: 100%;
         margin: 0; }
   }
-  .onboardingForm .input-group {
+  .mailing-list .input-group, .contact-info .input-group {
     display: inline-block; }
     @media (max-width: 650px) {
-      .onboardingForm .input-group {
+      .mailing-list .input-group, .contact-info .input-group {
         display: block;
         margin-bottom: 20px; } }
-  .onboardingForm .form-container {
+  .mailing-list .form-container {
     display: flex;
     justify-content: center; }
 
@@ -604,5 +604,9 @@ a {
   display: block;
   position: relative;
   top: -80px; }
+
+.black{
+    position:relative;background-color:#000;color:#eee
+}
 
 /*# sourceMappingURL=style.css.map */
