@@ -161,14 +161,20 @@ a{
     cursor: pointer; !important
 }
 button{
-    cursor: pointer; !important
+    cursor: pointer !important;
+    min-width: 190px;
+    margin: 0 20px;
 }
 button:focus { outline: none; }
 .mailing-list, .contact-info {
   background-color: #000;
-  color: #fff; }
+  color: #fff;
+  padding: 50px 0;
+}
   .mailing-list label {
-    font-family: Arial; }
+    font-family: Arial;
+    padding-bottom: 10px;
+ }
   .mailing-list input {
     margin-left: 7px;
     margin-right: 28px;
@@ -186,12 +192,16 @@ button:focus { outline: none; }
   @media (max-width: 650px) {
     .mailing-list input.submit-button {
       width: 100%;
-      margin: 0; }
+      margin: 0;
+    }
       .mailing-list input {
         width: 100%;
-        margin: 0; }
+        margin: 0;
+         margin-top: 5px
+    }
   }
   .mailing-list .input-group, .contact-info .input-group {
+      margin-top: 20px;
     display: inline-block; }
     @media (max-width: 650px) {
       .mailing-list .input-group, .contact-info .input-group {
