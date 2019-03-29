@@ -79,11 +79,11 @@ a{
 }
 
 img.phoneGif{
-    overflow: visible;
+    overflow: hidden;
     position: absolute;
-    top: 102px;
-    left: 20px;
-    width: 327px;
+    top: 14.5%;
+    left: 5.5%;
+    width: 88.5%;
     height:auto;
     background-color: #000
 }
