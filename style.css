@@ -288,6 +288,22 @@ a {
   .sessionWhite1 {
     height: 34px;
     background-color: #efefef; } }
+
+
+  .hideIfBig{
+    display: none
+  }
+
+@media (max-width: 650px){
+  .hideIfSmall{
+    display:none
+  }
+  .hideIfBig{
+    display:block
+  }
+}
+
+
 @media (max-width: 450px) {
   .sessionBlue0 {
     height: 70px; }
