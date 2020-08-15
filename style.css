@@ -116,10 +116,14 @@ img.phoneGif{
     right: 50%;
     bottom: 50%;
     text-align: right; }
-.titleContainer{
+.mainContainer{
     display: flex;
     text-align: center;
     justify-content: center;
+    background-color: #fff;
+    z-index: 3;
+    position: relative;
+    padding-bottom:20px;
 }
 .title, .footer {
   padding: 230px 0;}
@@ -294,6 +298,15 @@ a {
     display: none
   }
 
+
+  .footer-desu
+  {
+    position:fixed;
+    bottom:20px;
+    width:100%;
+    text-align:center
+  }
+
 @media (max-width: 650px){
   .hideIfSmall{
     display:none
@@ -302,6 +315,16 @@ a {
     display:block
   }
 }
+body{
+  min-height:500px
+}
+@media (max-width: 650px){
+  body{
+    min-height:700px !important;
+  }
+}
+
+
 
 
 @media (max-width: 450px) {
